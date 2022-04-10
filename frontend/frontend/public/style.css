@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+
+
+#app {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  
+}
+
+
+
+.box-table {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 750px;
+    padding: 20px;
+    border: 2px solid rgb(53, 47, 47);
+    border-radius: 7px;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+    
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    left: 50%;
+}
+
+.title-table {
+    font-size: 32px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+th {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border-spacing: 40px;
+    text-transform: uppercase;
+}
+
+.green {
+    background-color: rgb(44, 165, 44);
+}
+
+.green:hover {
+    background-color: rgb(55, 199, 55);
+}
+
+.green:active {
+    background-color: rgb(44, 165, 44);
+}
+
+.red {
+    background-color: rgb(184, 79, 79);
+}
+
+.red:hover {
+    background-color: rgb(221, 50, 50);
+}
+
+.red:active {
+    background-color: rgb(184, 79, 79);
+}
+
+
+
+
+.blue{background-color: rgb(71, 141, 247);}
+
+.blue:hover{background-color: rgb(71, 191, 247);}
+
+.blue:active{background-color: rgb(71, 141, 247);}
+
+
+.button {
+    width: 60%;
+    height: 90%;
+    color: white;
+    border-radius: 7px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: 1.2px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.349);
+    padding: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.449);
+}
+
+.subtitle {
+    font-size: 1.3em;
+    border-bottom: 3px solid #111111;
+}
+
+tr.result {
+    background-color: rgb(219, 218, 218);
+    text-transform: uppercase;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color:  #999;
+    margin-bottom: 5px;
+}
+
+.local-buttons {
+    text-align: right;
+}
+
+th {
+    padding: 5px;
+}
+
+#popup-cidade {
+    width: 370px;
+    margin-left: 300px;
+    padding-right: 15px;
+}
+
+option {
+    text-transform: uppercase;
+}
+
+select {
+    width: 150px;
+}
+
+
+tr.result:hover {
+    background-color: rgb(163, 161, 161);
+}
+
+tr::selection {
+    background-color: rgb(163, 161, 161);
+
+}
+
+.button-table {
+    border: 1px solid gray;
+    opacity: 95%;
+    border-radius: 3px;
+    margin-left: 10px;
+}
